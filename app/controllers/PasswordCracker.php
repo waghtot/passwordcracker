@@ -11,13 +11,13 @@ class PasswordCracker extends Controller{
 
         $this->checkCases(); // checking actuall state for case_* properties
 
-        // $this->caseDigitOnly(); // generate numbers in loop up to 100000
+        $this->caseDigitOnly(); // generate numbers in loop up to 100000
 
-        // $this->caseDigitUppercase(); // generate string with three uppercase and one digit
+        $this->caseDigitUppercase(); // generate string with three uppercase and one digit
 
         $this->caseLowercaseOnly(); // check through csv file with six letters words in it
 
-        // $this->caseDigitMixCharacters(); // generate mixed letters and digits string for check
+        $this->caseDigitMixCharacters(); // generate mixed letters and digits string for check
         
     }
 
